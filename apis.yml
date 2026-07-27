@@ -1,19 +1,51 @@
 aid: gallatin-ai
-name: Gallatin Ai
-description: Gallatin Ai is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gallatin-ai.png
+name: Gallatin AI
+description: Gallatin AI builds AI-powered software for defense logistics, giving military
+  planners and logisticians decision advantage across the tactical, operational, and
+  strategic levels of the supply chain. Its products include Navigator, an AI decision-support
+  "S4" that aggregates and analyzes brigade-level logistics reports in real time to
+  streamline resupply planning; Burrow, a DoD-compliant third-party logistics (3PL)
+  solution managing vendor qualification, transportation, inventory, storage, and fulfillment
+  for domestic and international operations; and Phalanx, an automated asset and in-transit
+  visibility system combining traditional reporting with hardware sensors and computer
+  vision. Founded by veterans of Scale AI, Palantir, Amazon Prime Air, and the DoD, the
+  company emerged from stealth in 2025 and is backed by 8VC, Silent Ventures, Timeless,
+  Moonshots Capital, and Banter Capital.
 url: https://raw.githubusercontent.com/api-evangelist/gallatin-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 8vc
+- Silent Ventures
+- Timeless
+- Moonshots Capital
+- Banter Capital
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Defense
+- Logistics
+- Artificial Intelligence
+- Supply Chain
+- Decision Support
+- Military
+- GovTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,22 @@ maintainers:
 common:
 - type: Website
   url: https://gallatin.ai
+- type: About
+  url: https://gallatin.ai/company
+- type: Blog
+  url: https://gallatin.ai/news
+- type: GitHubOrganization
+  url: https://github.com/gallatinai
+- type: Careers
+  url: https://gallatin.ai/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gallatinai/
+- type: X
+  url: https://x.com/GallatinAI
+- type: DomainSecurity
+  url: security/gallatin-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

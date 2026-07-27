@@ -1,0 +1,14 @@
+{
+  "repo": "gallatin-ai",
+  "feeds": [
+    {
+      "source": "https://gallatin.ai/company",
+      "feed_url": "https://gallatin.ai/company",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
